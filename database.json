@@ -1,0 +1,286 @@
+{
+  "users": [
+    {
+      "firstname": "nguyen",
+      "lastname": "nguyen van",
+      "username": "admin",
+      "password": "admin",
+      "role": 1,
+      "email": "nguyenngoccod@gmail.com",
+      "phone": 999999999,
+      "address": "dong phuong yen chuong my ha noi",
+      "apiId": "v1",
+      "id": 1,
+      "token": "fake-jwt-token2"
+    },
+    {
+      "firstname": "ngoc",
+      "lastname": "nguyen van",
+      "username": "nguyenvana",
+      "password": "nguyenvana",
+      "role": 2,
+      "email": "nguyen@gmail.com",
+      "phone": 999888877,
+      "address": "tao nha 11, khu do thi time city, phong 100",
+      "apiId": "v1",
+      "token": "fake-jwt-token2",
+      "id": 2
+    },
+    {
+      "firstname": "ba",
+      "lastname": "nguyen van",
+      "username": "nguyenb",
+      "password": "nguyenb",
+      "role": 2,
+      "email": "nguyena@gmail.com",
+      "phone": 999999988,
+      "address": "tao nha 11, khu do thi time city, tang 20 , so phong 199",
+      "apiId": "v1",
+      "id": 3,
+      "token": "fake-jwt-token2"
+    },
+    {
+      "firstname": "nguyen",
+      "lastname": "nguyen van ",
+      "username": "nguyen",
+      "password": "nguyen",
+      "role": 2,
+      "email": "asda@gmail.com",
+      "phone": 999998888,
+      "address": "khu do thi time city, tao nha a, tang 33",
+      "apiId": "v1",
+      "id": 5,
+      "token": "fake-jwt-token2"
+    },
+    {
+      "firstname": "cao1",
+      "lastname": "nguyen van",
+      "username": "cao",
+      "password": "cao",
+      "role": 2,
+      "email": "gg@gmail.com",
+      "phone": 999888888,
+      "address": "tao nha H khu do thi time city, tang 55",
+      "apiId": "v1",
+      "token": "fake-jwt-token2",
+      "id": 6
+    },
+    {
+      "firstname": "đại1",
+      "lastname": "nguyen van",
+      "username": "dai123",
+      "password": "dai123",
+      "role": 3,
+      "email": "dai@gmail.com",
+      "phone": 999888877,
+      "address": "dong phuong yen chuong my",
+      "apiId": "v1",
+      "token": "fake-jwt-token2",
+      "id": 7
+    },
+    {
+      "firstname": "hai",
+      "lastname": "nguyen van",
+      "username": "hai",
+      "password": "hai",
+      "role": 3,
+      "email": "hai@gamil.com",
+      "phone": 999888877,
+      "address": "thanh xuan nguyen trai",
+      "apiId": "v1",
+      "id": 8,
+      "token": "fake-jwt-token2"
+    },
+    {
+      "firstname": "huy",
+      "lastname": "nguyen van",
+      "username": "huy123",
+      "password": "huy123",
+      "role": 3,
+      "email": "huy@gmail.com",
+      "phone": 999998888,
+      "address": "thanh xuna ha noi",
+      "token": "fake-jwt-token2",
+      "apiId": "v1",
+      "id": 9
+    }
+  ],
+  "apartment-malfunction": [
+    {
+      "username": "nguyenvana",
+      "phone": 999888877,
+      "address": "tao nha 11, khu do thi time city, phong 100",
+      "description": "can su ly ngay",
+      "status": "1",
+      "image": "",
+      "date": "6-12-2019 9:4",
+      "userid": 2,
+      "employeeid": -1,
+      "types": [
+        "Hỏng bóng đèn",
+        "Hỏng vòi hoa sen"
+      ],
+      "apiId": "v1",
+      "id": 1
+    },
+    {
+      "username": "nguyenvana",
+      "phone": 999888877,
+      "address": "tao nha 11, khu do thi time city, phong 100",
+      "description": "can lam ngay",
+      "status": 3,
+      "image": "",
+      "date": "6-12-2019 9:4",
+      "userid": 2,
+      "employeeid": 7,
+      "types": [
+        "Hỏng bóng đèn"
+      ],
+      "apiId": "v1",
+      "id": 2
+    },
+    {
+      "username": "nguyenvana",
+      "phone": 999888877,
+      "address": "tao nha 11, khu do thi time city, phong 100",
+      "description": "can lam gap",
+      "status": 3,
+      "image": "",
+      "date": "6-12-2019 9:5",
+      "userid": 2,
+      "employeeid": 7,
+      "types": [
+        "Hỏng vòi hoa sen"
+      ],
+      "apiId": "v1",
+      "id": 3
+    },
+    {
+      "username": "nguyenvana",
+      "phone": 999888877,
+      "address": "tao nha 11, khu do thi time city, phong 100",
+      "description": "can su ly ngay",
+      "status": 3,
+      "image": "",
+      "date": "6-12-2019 9:51",
+      "userid": 2,
+      "employeeid": 9,
+      "types": [
+        "Hỏng tivi",
+        "Hỏng vòi hoa sen"
+      ],
+      "apiId": "v1",
+      "id": 4
+    },
+    {
+      "username": "nguyenvana",
+      "phone": 999888877,
+      "address": "tao nha 11, khu do thi time city, phong 100",
+      "description": "ok",
+      "status": 3,
+      "image": "",
+      "date": "6-12-2019 10:0",
+      "userid": 2,
+      "employeeid": 9,
+      "types": [
+        "mất nước"
+      ],
+      "apiId": "v1",
+      "id": 5
+    }
+  ],
+  "employee": [
+    {
+      "id": 4,
+      "firstname": "nguyen",
+      "lastname": "nguyen a",
+      "username": "nhanvien",
+      "password": "nhanvien",
+      "phone": "0888877777",
+      "email": "nhanvien@gmail.com",
+      "role": "3",
+      "address": "so 3 thanh xuan",
+      "token": "fake-jwt-token2"
+    },
+    {
+      "id": 5,
+      "firstname": "nguyen ",
+      "lastname": "nguyen c",
+      "username": "nhanvien1",
+      "password": "nhanvien1",
+      "phone": "0888877777",
+      "email": "nhanvien@gmail.com",
+      "role": "3",
+      "address": "so 3 thanh xuan",
+      "token": "fake-jwt-token2"
+    }
+  ],
+  "while-list": [
+    {
+      "id": 1,
+      "name": "Hỏng bóng đèn"
+    },
+    {
+      "id": 2,
+      "name": "mất nước"
+    },
+    {
+      "id": 4,
+      "name": "Vỡ ống nước"
+    },
+    {
+      "id": 5,
+      "name": "Hỏng tivi"
+    },
+    {
+      "id": 6,
+      "name": "Hỏng vòi hoa sen"
+    },
+    {
+      "id": 7,
+      "name": "Hổng quạt thông gió"
+    }
+  ],
+  "feedback": [
+    {
+      "userid": 4,
+      "name": "ngao van ngao",
+      "address": "can ho so 11, toa nha timecity",
+      "email": "ngao@gmail.com",
+      "phone": 9876666666,
+      "content": "ok ",
+      "apiId": "v1",
+      "id": 1
+    },
+    {
+      "userid": 6,
+      "name": "nguyen van gg",
+      "address": "tao nha H khu do thi time city, tang 55",
+      "email": "gg@gmail.com",
+      "phone": 999888888,
+      "content": "ok\n\n",
+      "apiId": "v1",
+      "id": 4
+    },
+    {
+      "userid": 2,
+      "name": "nguyen van A",
+      "address": "tao nha 11, khu do thi time city, phong 100",
+      "email": "nguyen@gmail.com",
+      "phone": 999888877,
+      "content": "ok, can phat trien them nhieu tinh nang hon nua",
+      "apiId": "v1",
+      "id": 5
+    },
+    {
+      "userid": 2,
+      "name": "nguyen van A",
+      "address": "tao nha 11, khu do thi time city, phong 100",
+      "email": "nguyen@gmail.com",
+      "phone": 999888877,
+      "content": "tuong tac voi nhan vien tot, co do an toan cao, tot",
+      "apiId": "v1",
+      "id": 6
+    }
+  ]
+}
